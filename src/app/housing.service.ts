@@ -5,7 +5,7 @@ import { promise } from "protractor";
   providedIn: "root",
 })
 export class HousingService {
-  url = "http://localhost:3000/locations";
+  url = "https://raw.githubusercontent.com/arvind-i2e/Json_data/main/db.json";
   constructor() {}
 
   async getAllHousingLocations(): Promise<HousingLocation[]> {
